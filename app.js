@@ -33,18 +33,20 @@ function checkLuck(total, userLuck) {
 
     if (birthDate.value == "" || luckyNumber.value == "") {
 
-        showDisplay.innerText = "You must fill all the input"
+        showDisplay.innerText = "You must fill both the input field"
 
     } else if (total % userLuck === 0) {
 
-        showDisplay.innerText = "Yay! your birthdate is lucky"
+        showDisplay.innerText = "Yay! your birthdate is lucky 🎉"
+        showDisplay.style.color = "blueviolet"
+
 
     } else {
 
         showDisplay.innerText = "Your birthdate is not lucky"
 
     }
-
+ 
 }
 
 checkButton.addEventListener("click", checkButtonHandler);

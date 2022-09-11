@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*, 
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+   
+}
+
+h1{
+margin: 0 auto;
+padding: 40px 24px;
+text-align: center;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+color: white;
+letter-spacing: 0.3rem;
+max-width: 60vw;
+} 
+
+main{
+    max-width: 50vw;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #D2FC04;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+input{
+    margin: 0;
+    margin-bottom: 10px;
+    max-width: 80%;
+    font-size: 2rem;
+    font-family: Montserrat;
+    color: gray;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px; 
+    border: 1px solid gray;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid black;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 20px;
+    border: 2px solid black;
+    font-size: 1.5rem; 
+    box-shadow: 4px 8px 1px black;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: black;
+    box-shadow: none;
+    color: #D2FC04;
+    font-weight: bold;
+
+}
+
+#display{
+    margin: 10px auto;
+    font-size: 1.5rem;
+    color: red;
+}
+
+footer{
+    padding: 20px 0;
+    border-top: 1px solid white;
+    margin-top: 30px;
+}
+
+.foot-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-contain{
+    margin: 0 auto;
+    max-width: 50vw;
+}
+
+footer p{
+    font-weight: bold;
+    color: #D2FC04;
+}
+
+span{
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
+
+
+.social-link{
+    padding: 10px;
+}
