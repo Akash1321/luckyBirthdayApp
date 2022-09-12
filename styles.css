@@ -19,7 +19,7 @@ body{
 
 h1{
 margin: 0 auto;
-padding: 40px 24px;
+padding: 30px 24px;
 text-align: center;
 font-weight: 700;
 font-size: 60px;
@@ -31,7 +31,7 @@ max-width: 60vw;
 
 main{
     max-width: 50vw;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 30px;
     background-color: #D2FC04;
     color: black;
